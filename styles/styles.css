@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Righteous', cursive;
+    color: #37343d;
+}
+
+p,
+ul,
+li,
+a {
+   font-family: 'Barlow Condensed', sans-serif;
+   color: #37343d;
+}
+
+/* Utility CSS */
+.section-padding {
+    padding: 0.5rem 0;
+}
+
+.width-limiter {
+    max-width: 1280px;
+    margin: auto;
+}
+
+/* Head Area */
+.head,
+.hero {
+    background-color: #000000;
+}
+
+/* Hero Area */
+
+#bgVideo {
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255, 0) 15%, rgba(255,255,255, 0) 85%, rgba(0,0,0,1) 100%);
+    z-index: 1000;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
