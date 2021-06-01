@@ -1,6 +1,6 @@
 <?php include "../horizon/includes/header.php" ?>
 
-<section class="hero">
+<section class="hero bgColor">
     <div class="width-limiter">
         <div class="overlay">
         <video autoplay muted loop id="bgVideo">

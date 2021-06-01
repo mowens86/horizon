@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="head section-padding">
+    <div class="head section-padding bgColor">
         <div class="width-limiter">
             <div class="head-left">
                 <img src="../../horizon/assets/logo.jpg" alt="logo" title="logo" width="200">
