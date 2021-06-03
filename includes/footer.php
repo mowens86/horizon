@@ -4,6 +4,7 @@
     </div>
 
 </footer>
+<script type="text/javascript" src="../../horizon/js/index.js"></script>
 </body>
 
 </html>
