@@ -41,6 +41,14 @@ a {
     background-color: #000000;
 }
 
+.bg-img-utils {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
 .light-hfont,
 .light-pfont {
     color: #FFFFFF;
@@ -101,10 +109,14 @@ a {
     padding: 10px 15px;
     border: none;
     transition: 0.3s;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
   
   .openbtn:hover {
     background-color: #444;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
   
   #main {
@@ -141,11 +153,6 @@ a {
 /* Game Overview Section */
 .overview {
     background-image: url("../../horizon/assets/b0na9h3j7j551.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    position: fixed;
 }
 
 .overview-flex {
@@ -201,7 +208,7 @@ a {
     margin: 1rem;
     padding: 0.5rem;
     width: 250px;
-    height: 300px;
+    height: 350px;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
     position: relative;
@@ -254,7 +261,32 @@ a {
     text-align: center;
 }
 
+.btn-container {
+    text-align: center;
+    padding-top: 1rem;
+}
 
+.card-btn {
+    display: inline-block;
+    background-color: #FF2828;
+    font-family: 'Righteous', cursive;
+    font-size: 16px;
+    color: white;
+    padding: 0.75rem 1.15rem;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 2px solid white;
+    transition: 0.3s all;
+}
+
+.card-btn:hover {
+    background-color: #BA1B1B;
+}
+
+/* Gallery */
+.gallery {
+    background-image: url("../../horizon/assets/Tenakth_riding_Clawstrider.jpg");
+}
 
 /* Media Queries */
 
@@ -283,6 +315,9 @@ a {
     .card {
         width: 33.33%;
         height: 400px;
+    }
+    .btn-container {
+        padding-top: 2rem;
     }
   }
 
