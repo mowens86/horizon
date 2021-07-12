@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <div class="head header-padding bgColor">
+    <div id="home" class="header-border header-padding bgColor">
         <div class="width-limiter head-flex">
             <div class="head-left">
                 <a href="../../horizon/index.php" rel="noopener noreferrer">

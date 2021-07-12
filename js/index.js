@@ -14,10 +14,11 @@ const closeNav = () => {
 /**
  * Audio file
  */
-const music = document.getElementById("audio");
-music.volume = 0.2;
-window.onload = () => {
-  setTimeout(() => {
-    music.play();
-  }, 5000)
-}
+
+// const music = document.getElementById("audio");
+// music.volume = 0.2;
+// window.onload = () => {
+//   setTimeout(() => {
+//     music.play();
+//   }, 5000)
+// }

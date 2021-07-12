@@ -1,6 +1,6 @@
 <?php include "../horizon/includes/header.php" ?>
 
-<section class="hero bgColor">
+<section id="video" class="hero bgColor">
     <div class="width-limiter">
         <div class="overlay">
             <video autoplay muted loop id="bgVideo">
@@ -15,7 +15,7 @@
     </div>
 </section>
 
-<section class="overview bg-img-utils section-padding overview-overlay">
+<section id="overview" class="overview bg-img-utils section-padding overview-overlay">
     <div class="width-limiter overview-flex">
         <div class="overview-flex-left overview-content">
             <h1 class="light-hfont">Game Overview</h1>
@@ -29,7 +29,7 @@
     </div>
 </section>
 
-<section class="cards section-padding">
+<section id="products" class="cards section-padding">
     <h1 class="width-limiter center pbot">Choose Your Bundle of Adventure</h1>
     <div class="width-limiter card-flex">
         <div class="card one">
@@ -90,7 +90,7 @@
     </div>
 </section>
 
-<section class="gallery bg-img-utils section-padding overview-overlay">
+<section id="newsletter" class="gallery bg-img-utils section-padding overview-overlay">
     <div class="width-limiter overview-flex">
         <div class="overview-flex-left overview-content">
             <h1 class="light-hfont">Sign-Up for the Newsletter</h1>
